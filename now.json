@@ -1,6 +1,5 @@
 {
   "name": "isthe-link",
   "alias": "isthe.link",
-  "type": "static",
-  "files": ["out"]
+  "type": "static"
 }

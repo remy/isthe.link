@@ -1,4 +1,4 @@
-export default function Project({ id, title, description, repo = false }) {
+export default function Project({ id, description, repo = false }) {
   return (
     <div className="Project">
       <h2 className="title" id={id}>
@@ -16,7 +16,7 @@ export default function Project({ id, title, description, repo = false }) {
           </span>
         )}
       </p>
-      <img src={`/static/img/${id}.png`} />
+      <img src={`static/img/${id}.png`} />
     </div>
   );
 }
