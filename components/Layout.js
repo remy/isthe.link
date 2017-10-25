@@ -27,7 +27,7 @@ export default function Layout({ children, title = 'isthe.link projects' }) {
         <footer>
           <p>
             Created by <a href="https://remysharp.com">@rem</a> - occasionally{' '}
-            <a href="https://github.com/remy">open source</a>
+            <a href="https://github.com/remy/isthe.link">open source</a>
           </p>
         </footer>
       </main>
