@@ -1,0 +1,11 @@
+{
+  "extends": "airbnb",
+  "globals": {
+    "document": true,
+    "window": true,
+    "process": true
+  },
+  "rules": {
+    "react/prop-types": 0
+  }
+}
