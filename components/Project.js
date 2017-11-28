@@ -1,4 +1,5 @@
 export default function Project({ id, description, repo = false }) {
+  const url = `${id}.isthe.link`;
   return (
     <div className="Project">
       <h2 className="title" id={id}>
@@ -6,17 +7,18 @@ export default function Project({ id, description, repo = false }) {
       </h2>
       <p>{description}</p>
       <p>
-        <a
-          className="link"
-          href={`https://${id}.isthe.link`}
-        >{`${id}.isthe.link`}</a>
+        <a className="link" href={`https://${url}`}>
+          {url}
+        </a>
         {repo && (
           <span className="source">
             &nbsp;//&nbsp;<a href={`https://github.com/${repo}`}>source</a>
           </span>
         )}
       </p>
-      <img src={`static/img/${id}.png`} />
+      <a href={`https://${url}`}>
+        <img src={`static/img/${id}.png`} />
+      </a>
     </div>
   );
 }

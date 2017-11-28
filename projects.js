@@ -13,6 +13,13 @@ export default [
   },
 
   {
+    id: 'jace',
+    description:
+      'A "jq as a service" (a different take on the the existing playground)',
+    repo: 'remy/jace',
+  },
+
+  {
     id: 'picker',
     description:
       'Colour picker based on the ZX Spectrum for Z80 assembly code.',
