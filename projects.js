@@ -13,10 +13,27 @@ export default [
   },
 
   {
+    id: 'oliver',
+    description: `A Github bot that's like Oliver Twist, and once an issue is closed, comments with "Please may I…"`,
+    repo: 'remy/oliver',
+  },
+
+  {
+    id: 'haiku',
+    description: `57 haiku poems I've collected, for use instead of lorem-ipsum`,
+    repo: 'remy/haiku',
+  },
+
+  {
     id: 'jace',
     description:
       'A "jq as a service" (a different take on the the existing playground)',
     repo: 'remy/jace',
+  },
+  {
+    id: 'haiku',
+    description: `57 haiku poems I've collected, for use instead of lorem-ipsum`,
+    repo: 'remy/haiku',
   },
 
   {
@@ -24,6 +41,7 @@ export default [
     description:
       'Colour picker based on the ZX Spectrum for Z80 assembly code.',
   },
+
   {
     id: 'draw8bit',
     description:
