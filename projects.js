@@ -19,12 +19,6 @@ export default [
   },
 
   {
-    id: 'haiku',
-    description: `57 haiku poems I've collected, for use instead of lorem-ipsum`,
-    repo: 'remy/haiku',
-  },
-
-  {
     id: 'jace',
     description:
       'A "jq as a service" (a different take on the the existing playground)',
