@@ -1,5 +1,9 @@
 export default [
   {
+    id: 'npm',
+    description: 'Quick filterable view on all your npm packages',
+  },
+  {
     id: 'bitcalc',
     description:
       'Calculator with history to help visualise binary and hex values and the action of bitwise operations.',
