@@ -1,5 +1,15 @@
 export default [
   {
+    id: 'viewer',
+    description: 'Quick filterable view on all your npm packages',
+    repo: 'remy/viewer.isthe.link',
+  },
+  {
+    id: 'json',
+    description: 'Quick filterable view on all your npm packages',
+    repo: 'remy/json.isthe.link',
+  },
+  {
     id: 'npm',
     description: 'Quick filterable view on all your npm packages',
   },
