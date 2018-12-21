@@ -1,7 +1,17 @@
 export default [
   {
+    id: 'binary',
+    description: 'Visualising tool for bits and signs',
+    repo: 'remy/binary.isthe.link',
+  },
+  {
+    id: 'ip2tz',
+    description: 'Referring IP address to timezone API',
+    repo: 'remy/ip2tz',
+  },
+  {
     id: 'viewer',
-    description: 'Quick filterable view on all your npm packages',
+    description: 'Image slideshow and picker for downloading',
     repo: 'remy/viewer.isthe.link',
   },
   {
