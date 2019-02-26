@@ -1,5 +1,10 @@
 export default [
   {
+    id: 'tinygif',
+    description: 'Generate the smallest sold colour gif (and dataurl)',
+    repo: 'remy/bins/tree/master/tinygif',
+  },
+  {
     id: 'binary',
     description: 'Visualising tool for bits and signs',
     repo: 'remy/binary.isthe.link',
