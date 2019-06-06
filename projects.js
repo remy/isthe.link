@@ -3,6 +3,7 @@ export default [
     id: 'karaoke',
     description: 'Slide show karaoke using Unsplash as a source',
     repo: 'remy/karaoke',
+    img: 'karaoke.jpg',
   },
   {
     id: 'tinygif',
