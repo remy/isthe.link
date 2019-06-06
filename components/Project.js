@@ -1,4 +1,9 @@
-export default function Project({ id, description, repo = false }) {
+export default function Project({
+  id,
+  description,
+  img = `${id}.png`,
+  repo = false,
+}) {
   const url = `${id}.isthe.link`;
   return (
     <div className="Project">
@@ -17,7 +22,7 @@ export default function Project({ id, description, repo = false }) {
         )}
       </p>
       <a href={`https://${url}`}>
-        <img src={`static/img/${id}.png`} />
+        <img src={`static/img/${img}`} />
       </a>
     </div>
   );

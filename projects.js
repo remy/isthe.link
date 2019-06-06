@@ -1,5 +1,10 @@
 export default [
   {
+    id: 'karaoke',
+    description: 'Slide show karaoke using Unsplash as a source',
+    repo: 'remy/karaoke',
+  },
+  {
     id: 'tinygif',
     description: 'Generate the smallest sold colour gif (and dataurl)',
     repo: 'remy/bins/tree/master/tinygif',
