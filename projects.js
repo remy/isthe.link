@@ -1,5 +1,11 @@
 export default [
   {
+    id: 'tetris',
+    description: 'A tetris clone written over a day in the old DOS style',
+    repo: 'remy/tetris',
+    img: 'tetris.jpg',
+  },
+  {
     id: 'karaoke',
     description: 'Slide show karaoke using Unsplash as a source',
     repo: 'remy/karaoke',
