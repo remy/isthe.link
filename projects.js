@@ -2,7 +2,7 @@ export default [
   {
     id: 'tetris',
     description: 'A tetris clone written over a day in the old DOS style',
-    repo: 'remy/tetris',
+    repo: 'remy/tetrisy',
     img: 'tetris.png',
   },
   {
