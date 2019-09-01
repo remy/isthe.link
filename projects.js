@@ -1,5 +1,11 @@
 export default [
   {
+    id: 'transform',
+    description: 'Use rules to transform globs of text into JSON',
+    repo: 'remy/transform',
+    img: 'transform.png',
+  },
+  {
     id: 'tetris',
     description: 'A tetris clone written over a day in the old DOS style',
     repo: 'remy/tetrisy',
