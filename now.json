@@ -1,5 +1,10 @@
 {
   "version": 2,
-  "name": "isthe-link",
-  "alias": "isthe.link"
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build"
+    }
+  ],
+  "alias": ["isthe.link"]
 }
