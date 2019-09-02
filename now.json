@@ -1,10 +1,6 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@now/static-build"
-    }
-  ],
+  "builds": [{ "src": "package.json", "use": "@now/static-build" }],
+  "routes": [{ "src": "(.*)", "dest": "$1.html" }],
   "alias": ["isthe.link"]
 }

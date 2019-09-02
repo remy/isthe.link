@@ -1,6 +1,5 @@
 module.exports = {
-  distDir: 'public',
-  exportPathMap: () => ({
-    '/': { page: '/' },
-  }),
+  exportPathMap() {
+    return { '/': { page: '/' } };
+  }
 };

@@ -6,11 +6,14 @@
   "engines": {
     "node": "8.x.x"
   },
+  "prettier": {
+    "singleQuote": true
+  },
   "scripts": {
     "dev": "next",
-    "build": "next build && next export",
+    "build": "next build && next export -o public",
     "start": "next start",
-    "deploy": "next build && next export && (cd ./out && now -A ../now.json && now -A ../now.json alias)"
+    "deploy": "next build && next export && (cd ./public && now -A ../now.json && now -A ../now.json alias)"
   },
   "keywords": [],
   "author": "Remy Sharp",
