@@ -9,15 +9,16 @@
   "scripts": {
     "dev": "next",
     "build": "next build && next export",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "next build && next export && (cd ./out && now -A ../now.json && now -A ../now.json alias)"
   },
   "keywords": [],
   "author": "Remy Sharp",
   "license": "MIT",
   "dependencies": {
-    "next": "^4.1.3",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "next": "^9.0.5",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
   },
   "devDependencies": {
     "eslint": "^4.9.0",
