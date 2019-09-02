@@ -9,9 +9,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build && next export",
-    "start": "next start",
-    "deploy":
-      "next build && next export && (cd ./out && now -A ../now.json && now -A ../now.json alias)"
+    "start": "next start"
   },
   "keywords": [],
   "author": "Remy Sharp",

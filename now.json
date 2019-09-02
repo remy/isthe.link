@@ -1,5 +1,5 @@
 {
+  "version": 2,
   "name": "isthe-link",
-  "alias": "isthe.link",
-  "type": "static"
+  "alias": "isthe.link"
 }
