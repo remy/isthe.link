@@ -1,5 +1,12 @@
 export default [
   {
+    id: 'blend',
+    description:
+      'Tool to calculate the solid colour when foreground has an opacity applied',
+    repo: 'remy/blend',
+    img: 'blend.png',
+  },
+  {
     id: 'transform',
     description: 'Use rules to transform globs of text into JSON',
     repo: 'remy/transform',
