@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "next",
-    "build": "next build && next export -o public",
+    "build": "next build && next export",
     "start": "next start",
     "deploy": "next build && next export && (cd ./public && vc -A ../now.json && vc -A ../now.json alias)"
   },
@@ -16,7 +16,7 @@
   "author": "Remy Sharp",
   "license": "MIT",
   "dependencies": {
-    "next": "^9.0.5",
+    "next": "^9.5.5",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   },
