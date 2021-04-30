@@ -46,7 +46,7 @@ export default [
   },
   {
     id: 'json',
-    description: 'Quick filterable view on all your npm packages',
+    description: 'Paste js-ish and get JSON in your clipboard',
     repo: 'remy/json.isthe.link',
   },
   {
