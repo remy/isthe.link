@@ -1,5 +1,12 @@
 export default [
   {
+    id: 'bytes',
+    description:
+      'Generates a file for the given length repeating your content selection.',
+    repo: 'remy/bytes.isthe.link',
+    img: 'bytes.png',
+  },
+  {
     id: 'blend',
     description:
       'Tool to calculate the solid colour when foreground has an opacity applied',
