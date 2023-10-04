@@ -1,5 +1,11 @@
 export default [
   {
+    id: 'xmodem',
+    description: 'Xmodem implementation using Web Serial',
+    repo: 'remy/web-xmodem',
+    img: 'xmodem.png',
+  },
+  {
     id: 'bytes',
     description:
       'Generates a file for the given length repeating your content selection.',
