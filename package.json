@@ -7,22 +7,17 @@
     "singleQuote": true
   },
   "scripts": {
-    "dev": "next",
-    "build": "next build && next export -o dist",
-    "start": "next start",
-    "deploy": "next build && next export && (cd ./public && vc -A ../now.json && vc -A ../now.json alias)"
+    "dev": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
   },
   "keywords": [],
   "author": "Remy Sharp",
   "license": "MIT",
-  "dependencies": {
-    "next": "^9.5.5",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0"
-  },
   "devDependencies": {
-    "eslint": "^4.9.0",
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-plugin-react": "^7.4.0"
+    "@11ty/eleventy": "^2.0.1",
+    "eslint": "^8.50.0"
+  },
+  "dependencies": {
+    "@11ty/eleventy-plugin-webc": "^0.11.1"
   }
 }

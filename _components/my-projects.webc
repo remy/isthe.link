@@ -1,0 +1,15 @@
+<div class="Project">
+  <h2 class="title" :id="project.id">
+    <a :href="`#${project.id}`" @html="project.id"></a>
+  </h2>
+  <p @html="project.description"></p>
+  <p>
+    <a class="link" :href="`https://${url}`" @html="url"></a>
+    <span webc:if="project.repo" class="source">
+      &nbsp;//&nbsp;<a :href="`https://github.com/${project.repo}`">source</a>
+    </span>
+  </p>
+  <a :href="`https://${url}`">
+    <img :src="`static/img/${img}`" />
+  </a>
+</div>

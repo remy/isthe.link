@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charSet="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta httpEquiv="X-UA-Compatible" content="ie=edge">
+    <title>isthe.link projects by @rem</title>
+    <link rel="icon" type="image/png" href="/static/img/favicon.png">
+    <link webc:keep rel="stylesheet" href="/static/css/system.css">
+    <link webc:keep rel="stylesheet" href="/static/css/index.css">
+  </head>
+
+  <body>
+
+
+    <main>
+      <header>
+        <h1>___.isthe.link</h1>
+        <p>
+          A collection of mini projects by
+          <a href="https://remysharp.com">@rem</a>
+        </p>
+      </header>
+
+      <section>
+        <my-projects webc:for="project of projects" :img="`${project.id}.png`"
+          :url="`${project.id}.isthe.link`"></my-projects>
+      </section>
+
+      <footer>
+        <p>
+          Created by <a href="https://remysharp.com">@rem</a> - occasionally
+          <a href="https://github.com/remy/isthe.link">open source</a>
+        </p>
+      </footer>
+    </main>
+
+
+  </body>
+
+</html>
